@@ -18,4 +18,4 @@ tokio-io = "0.1"
 
 [target.'cfg(windows)'.dependencies]
 mio-uds-windows = { path= "../mio-uds-windows" }
-tokio-uds-windows = { git = "../tokio-uds-windows" }
+tokio-uds-windows = { path = "../tokio-uds-windows" }
